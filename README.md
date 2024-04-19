@@ -1,5 +1,3 @@
-#Hi, my name is [DIEGO] and this is my work!
-
 # Portfolio Web Page
 
 This portfolio web page is a modern, responsive single page application that showcases your skills, experiences,
