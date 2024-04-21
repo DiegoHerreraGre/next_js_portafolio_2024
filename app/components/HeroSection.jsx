@@ -9,7 +9,7 @@ export const HeroSection = () => {
       <div className="mt-10 gap-2 grid grid-cols-1 sm:gird-cols-12">
         <br />
         <br />
-        <div className="mt-10 text-left place-self-center w-auto mx-auto">
+        <div className="mt-10 text-left place-self-center mx-auto">
           <h1 className="mb-10 text-violet-500 font-extrabold text-7xl sm:text-3xl md:text-5xl lg:text-8xl">
             Hi, I'm Diego
           </h1>

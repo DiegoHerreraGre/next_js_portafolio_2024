@@ -2,16 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: 'Mona-Sans';
-	src: url('../fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
-	url('../fonts/MonaSans-Bold.woff2') format('woff2-variations');
-	font-weight: 200 900;
-	font-stretch: 75% 125%;
-}
-
 :root {
-	font-family: 'Mona-Sans', sans-serif;
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
@@ -38,4 +29,10 @@ body {
 	.text-balance {
 		text-wrap: balance;
 	}
+}
+
+nav {
+	background: rgba(0, 0, 0, 0.31);
+	backdrop-filter: blur(25px);
+	-webkit-backdrop-filter: blur(25px);
 }
